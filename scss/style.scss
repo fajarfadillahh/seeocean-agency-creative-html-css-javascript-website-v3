@@ -390,3 +390,20 @@ img {
     }
   }
 }
+
+// ===== USER SECTION =====
+.user {
+  &__container {
+    display: grid;
+    gap: 2rem;
+  }
+
+  &__data {
+    justify-self: center;
+    text-align: center;
+  }
+
+  &__img {
+    justify-self: center;
+  }
+}
