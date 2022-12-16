@@ -143,6 +143,12 @@ img {
   z-index: var(--z-fixed);
   transition: var(--transition-all);
 
+  // sticky header
+  &.sticky-action {
+    background-color: var(--container-color);
+    box-shadow: 0 8px 12px rgba($color: #000000, $alpha: 0.1);
+  }
+
   &__container {
     height: var(--header-height);
     display: flex;
