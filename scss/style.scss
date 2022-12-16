@@ -340,3 +340,46 @@ img {
     }
   }
 }
+
+// ==== FEATURE SECTION =====
+.feature {
+  &__group {
+    display: grid;
+    gap: 6rem + 4rem;
+  }
+
+  &__content {
+    display: grid;
+    gap: 3rem;
+
+    &-img {
+      justify-self: center;
+    }
+
+    &-data {
+      justify-self: center;
+      text-align: center;
+    }
+
+    &-list {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    &-text {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 15px;
+      color: var(--text-color);
+    }
+
+    &-check {
+      display: inline-flex;
+      font-size: 1.2rem;
+      color: var(--red-color);
+    }
+  }
+}
