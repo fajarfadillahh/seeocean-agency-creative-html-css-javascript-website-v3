@@ -299,6 +299,13 @@ img {
 
 // ===== SERVICE SECTION =====
 .service {
+  padding: 6rem 0 2rem;
+
+  &__wrapper {
+    padding: 2rem 0;
+    background-color: #f9fafc;
+  }
+
   &__container {
     display: grid;
     gap: 2rem;
