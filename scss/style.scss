@@ -498,7 +498,7 @@ img {
   &__data {
     &-text {
       font-size: 15px;
-      color: var(--text-color);
+      color: var(--title-color);
       line-height: var(--leading-text);
       padding-top: 1rem;
     }
@@ -758,5 +758,20 @@ img {
 
   .user__img {
     width: auto;
+  }
+
+  .footer {
+    &__data-text {
+      width: 300px;
+    }
+
+    &__group {
+      grid-template-columns: 1fr 0.6fr 0.6fr 0.6fr;
+      align-items: flex-start;
+    }
+
+    &__content {
+      justify-self: center;
+    }
   }
 }
