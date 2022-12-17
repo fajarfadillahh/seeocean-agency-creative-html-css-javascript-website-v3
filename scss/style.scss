@@ -737,11 +737,22 @@ img {
     }
   }
 
-  .service {
+  .service,
+  .works {
     padding: 4rem 0 0;
 
     &__wrapper {
       padding: 4rem 0;
+    }
+  }
+
+  .feature {
+    &__content {
+      gap: 3rem;
+
+      &-text {
+        width: 460px;
+      }
     }
   }
 }
