@@ -698,4 +698,16 @@ img {
       order: 2;
     }
   }
+
+  .user {
+    &__data,
+    &__img {
+      width: 630px;
+    }
+
+    &__text {
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
 }
