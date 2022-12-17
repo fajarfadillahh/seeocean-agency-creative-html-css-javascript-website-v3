@@ -32,3 +32,23 @@ function scrollUp() {
     : scrollup.classList.remove("scroll-action");
 }
 window.addEventListener("scroll", scrollUp);
+
+// ===== DARK MODE =====
+if (localStorage.getItem("theme", "dark")) {
+  setDarkMode();
+}
+
+function setDarkMode() {
+  var setDark = document.documentElement.classList.toggle("dark");
+  var emoticon = "";
+
+  if (setDark) {
+    localStorage.setItem("theme", "dark");
+    emoticon = "☀️";
+  } else {
+    localStorage.removeItem("theme", "dark");
+    emoticon = "🌙";
+  }
+
+  document.getElementById("theme-toggle").innerHTML = emoticon;
+}
