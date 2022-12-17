@@ -539,11 +539,13 @@ img {
 // width 480px
 @media screen and (min-width: 480px) {
   .home__data,
-  .service__data {
+  .service__data,
+  .feature__content-data {
     width: 400px;
   }
 
-  .home__img {
+  .home__img,
+  .feature__content-img {
     width: 400px;
   }
 }
