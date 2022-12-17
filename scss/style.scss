@@ -461,3 +461,15 @@ img {
     }
   }
 }
+
+// ===== CALLBACK SECTION =====
+.callback {
+  &__container {
+    display: grid;
+    gap: 1rem;
+  }
+
+  &__data {
+    text-align: center;
+  }
+}
