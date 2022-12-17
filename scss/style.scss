@@ -627,3 +627,13 @@ img {
     }
   }
 }
+
+// width 968px
+@media screen and (min-width: 968px) {
+  .header {
+    &__menu,
+    &__list {
+      gap: 2rem;
+    }
+  }
+}
