@@ -369,7 +369,7 @@ img {
     }
 
     &-list {
-      display: inline-flex;
+      display: flex;
       flex-direction: column;
       gap: 1rem;
       padding-bottom: 2rem;
@@ -670,6 +670,32 @@ img {
         width: 500px;
         margin: 0 auto;
       }
+    }
+  }
+
+  .feature {
+    &__content {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 1.5rem;
+
+      &-data,
+      &-img {
+        width: auto;
+      }
+
+      &-data {
+        justify-self: flex-start;
+        text-align: left;
+      }
+
+      &-button {
+        display: inline-flex;
+      }
+    }
+
+    &__content:nth-child(2) .feature__content-img {
+      order: 2;
     }
   }
 }
