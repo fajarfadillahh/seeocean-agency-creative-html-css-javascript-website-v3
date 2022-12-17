@@ -318,6 +318,7 @@ img {
   &__wrapper {
     padding: 2rem 0;
     background-color: #f9fafc;
+    transition: var(--transition-all);
   }
 
   &__container {
@@ -430,6 +431,7 @@ img {
   &__wrapper {
     padding: 2rem 0;
     background-color: #f9fafc;
+    transition: var(--transition-all);
   }
 
   &__container {
