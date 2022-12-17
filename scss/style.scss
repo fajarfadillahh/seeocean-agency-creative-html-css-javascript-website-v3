@@ -540,12 +540,14 @@ img {
 @media screen and (min-width: 480px) {
   .home__data,
   .service__data,
-  .feature__content-data {
+  .feature__content-data,
+  .user__data {
     width: 400px;
   }
 
   .home__img,
-  .feature__content-img {
+  .feature__content-img,
+  .user__img {
     width: 400px;
   }
 }
