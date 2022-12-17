@@ -711,4 +711,15 @@ img {
       margin: 0 auto;
     }
   }
+
+  .callback {
+    &__data {
+      width: 500px;
+    }
+
+    &__button {
+      width: auto;
+      display: inline-flex;
+    }
+  }
 }
