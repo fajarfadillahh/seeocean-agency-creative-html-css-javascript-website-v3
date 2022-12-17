@@ -565,6 +565,17 @@ img {
   color: #fff;
 }
 
+// ===== ::-WEBKIT-SCROLLBAR =====
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: transparent;
+
+  &-thumb {
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    border-radius: 10rem;
+  }
+}
+
 // ===== MEDIA QUERIES =====
 // width 480px
 @media screen and (min-width: 480px) {
