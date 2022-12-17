@@ -593,3 +593,37 @@ img {
     }
   }
 }
+
+// width 768px
+@media screen and (min-width: 768px) {
+  .header {
+    &__container {
+      position: relative;
+    }
+
+    &__menu {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    &__list {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      flex-direction: row;
+    }
+
+    &__theme {
+      position: static;
+    }
+
+    &__button {
+      margin-top: 0;
+    }
+
+    &__toggle {
+      display: none;
+    }
+  }
+}
