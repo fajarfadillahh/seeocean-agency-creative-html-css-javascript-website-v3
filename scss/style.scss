@@ -540,6 +540,25 @@ img {
   }
 }
 
+// ===== SCROLLUP SECTION =====
+.scrollup {
+  position: fixed;
+  right: 1.5rem;
+  bottom: -100%;
+  display: inline-flex;
+  padding: 0.5rem;
+  background-color: var(--red-color);
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: var(--transition-all);
+
+  // scroll action
+  &.scroll-action {
+    bottom: 4rem;
+  }
+}
+
 // ===== MEDIA QUERIES =====
 // width 480px
 @media screen and (min-width: 480px) {
