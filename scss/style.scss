@@ -538,7 +538,8 @@ img {
 // ===== MEDIA QUERIES =====
 // width 480px
 @media screen and (min-width: 480px) {
-  .home__data {
+  .home__data,
+  .service__data {
     width: 400px;
   }
 
