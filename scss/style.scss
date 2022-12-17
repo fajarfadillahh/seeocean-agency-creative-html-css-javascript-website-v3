@@ -661,4 +661,15 @@ img {
       justify-content: flex-start;
     }
   }
+
+  .service {
+    &__data {
+      width: auto;
+
+      &-text {
+        width: 500px;
+        margin: 0 auto;
+      }
+    }
+  }
 }
