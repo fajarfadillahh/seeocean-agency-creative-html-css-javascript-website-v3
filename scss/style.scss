@@ -534,3 +534,15 @@ img {
     line-height: var(--leading-text);
   }
 }
+
+// ===== MEDIA QUERIES =====
+// width 480px
+@media screen and (min-width: 480px) {
+  .home__data {
+    width: 400px;
+  }
+
+  .home__img {
+    width: 400px;
+  }
+}
