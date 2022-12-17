@@ -581,4 +581,15 @@ img {
   .user__img {
     width: 460px;
   }
+
+  .home {
+    &__form {
+      flex-direction: row;
+
+      &-input {
+        text-align: left;
+        padding: 0 1.5rem;
+      }
+    }
+  }
 }
